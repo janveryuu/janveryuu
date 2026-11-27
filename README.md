@@ -22,13 +22,13 @@
 ```typescript
 const janver = {
   role:      ["Full Stack Software Engineer", "AI Engineer"],
-  location:  "Nasugbu, Philippines 🇵🇭",
+  location:  "Nasugbu, Philippines",
   now:       "SWE Intern @ Certicode · Freelance @ Remote",
   previously:"Full Stack Engineer · 2nd Lead @ Accenture",
   studying:  "BS Computer Engineering @ BatStateU",
   shipped:   "100+ projects · 5k+ users",
   focus:     ["LLMs", "AI agents", "RAG", "tool calling"],
-  funFact:   "I built my own JARVIS 🦾",
+  funFact:   "I built my own JARVIS",
 };
 ```
 
