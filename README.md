@@ -73,10 +73,6 @@ ai_and_automation:
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=janveryuu&theme=tokyonight&hide_border=true" />
 </p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=janveryuu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1" />
-</p>
-
 <h3 align="center">草を食べる蛇 · contribution snake</h3>
 
 <picture>
