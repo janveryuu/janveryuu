@@ -77,13 +77,13 @@ ai_and_automation:
   <img src="https://github-profile-trophy.vercel.app/?username=janveryuu&theme=tokyonight&no-frame=true&no-bg=true&margin-w=6&row=1" />
 </p>
 
+<h3 align="center">草を食べる蛇 · contribution snake</h3>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/janveryuu/janveryuu/output/snake-dark.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/janveryuu/janveryuu/output/snake.svg" />
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/janveryuu/janveryuu/output/snake-dark.svg" />
 </picture>
 
-### 🏅 Certifications
+<img src="./assets/certifications.svg" width="100%" alt="Certifications: Oracle OCI 2026 AI Foundations Associate, NVIDIA AI for All, Microsoft AI Skills Challenge, DICT Python, Accenture Technology Academy, BatStateU Java/Python/Robotics"/>
 
-`Oracle OCI 2026 AI Foundations Associate` · `NVIDIA AI for All` · `Microsoft AI Skills Challenge` · `DICT Python` · `Accenture Technology Academy`
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:22d3ee,50:0e7490,100:0f172a&height=120&section=footer" width="100%"/>
+<img src="./assets/footer.svg" width="100%" alt="見てくれてありがとう"/>
