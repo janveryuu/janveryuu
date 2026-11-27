@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/><stop offset=".6" stop-color="#0a1020"/><stop offset="1" stop-color="#0b1a2e"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="83%" cy="58%" r="38%">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity=".28"/><stop offset=".5" stop-color="#3b82f6" stop-opacity=".08"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" x2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".55" stop-color="#e0f2fe"/><stop offset="1" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="shoot" x1="0" x2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="r"><rect width="1200" height="340" rx="18"/></clipPath>
+    <filter id="soft"><feGaussianBlur stdDeviation="10" result="b"/><feComponentTransfer in="b" result="f"><feFuncA type="linear" slope=".35"/></feComponentTransfer><feMerge><feMergeNode in="f"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .mono{font-family:'Fira Code','JetBrains Mono',Consolas,monospace}
+      .sans{font-family:'Segoe UI',Inter,Helvetica,Arial,sans-serif}
+      .jp{font-family:'Noto Serif JP','Yu Mincho','Hiragino Mincho ProN','MS Mincho',serif}
+      .s{fill:#fff;animation:tw 3s ease-in-out infinite}
+      .s:nth-child(3n){animation-duration:4.5s;animation-delay:1s}
+      .s:nth-child(4n){animation-duration:2.2s;animation-delay:.5s}
+      @keyframes tw{0%,100%{opacity:.15}50%{opacity:.9}}
+      .fade{}
+      .d1{animation-delay:.2s}.d2{animation-delay:.6s}.d3{animation-delay:1s}.d4{animation-delay:1.4s}.d5{animation-delay:1.8s}
+      @keyframes in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+      .cur{animation:bl 1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+      .sh{animation:sh 7s linear infinite;opacity:0}
+      @keyframes sh{0%{transform:translate(0,0);opacity:0}3%{opacity:1}12%{transform:translate(-380px,190px);opacity:0}100%{opacity:0}}
+      .pulse{animation:pu 5s ease-in-out infinite}@keyframes pu{0%,100%{opacity:.75}50%{opacity:1}}
+      .wave{animation:wv 9s ease-in-out infinite alternate}@keyframes wv{to{transform:translateX(-60px)}}
+    </style>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#moon)" class="pulse"/>
+    <g>
+      <circle class="s" cx="80" cy="40" r="1.2"/><circle class="s" cx="210" cy="300" r="1"/><circle class="s" cx="330" cy="28" r="1.4"/>
+      <circle class="s" cx="470" cy="70" r="1"/><circle class="s" cx="560" cy="22" r="1.3"/><circle class="s" cx="640" cy="120" r="1"/>
+      <circle class="s" cx="720" cy="50" r="1.5"/><circle class="s" cx="790" cy="270" r="1"/><circle class="s" cx="860" cy="32" r="1.1"/>
+      <circle class="s" cx="930" cy="95" r="1.4"/><circle class="s" cx="1010" cy="40" r="1"/><circle class="s" cx="1090" cy="80" r="1.3"/>
+      <circle class="s" cx="1150" cy="30" r="1"/><circle class="s" cx="1170" cy="160" r="1.2"/><circle class="s" cx="610" cy="250" r="1"/>
+      <circle class="s" cx="400" cy="210" r="1.1"/><circle class="s" cx="150" cy="120" r="1"/><circle class="s" cx="1040" cy="300" r="1.2"/>
+      <circle class="s" cx="690" cy="190" r="1"/><circle class="s" cx="500" cy="300" r="1.3"/>
+    </g>
+    <g class="sh"><rect x="1000" y="20" width="130" height="1.6" rx="1" fill="url(#shoot)" transform="rotate(-26.6 1000 20)"/></g>
+    <!-- vertical katakana -->
+    <text x="1160" y="70" class="jp fade d5" fill="#22d3ee" fill-opacity=".35" font-size="16" writing-mode="tb" letter-spacing="6">ジャンバー</text>
+    <!-- left content -->
+    <text x="72" y="92" class="mono fade d1" fill="#22d3ee" font-size="14" font-weight="700" letter-spacing="4">こんにちは、世界 — I'M</text>
+    <text x="70" y="160" class="sans fade d2" fill="url(#name)" font-size="64" font-weight="800" filter="url(#soft)">Janver Manlapaz</text>
+    <text x="72" y="202" class="mono fade d3" fill="#94a3b8" font-size="18">AI Engineer <tspan fill="#22d3ee">/</tspan> Full Stack Engineer <tspan fill="#22d3ee">/</tspan> Builder<tspan class="cur" fill="#22d3ee"> ▍</tspan></text>
+    <g class="fade d4">
+      <rect x="72" y="226" width="56" height="3" rx="1.5" fill="#3b82f6"/><rect x="134" y="226" width="22" height="3" rx="1.5" fill="#22c55e"/><rect x="162" y="226" width="10" height="3" rx="1.5" fill="#a855f7"/>
+      <text x="72" y="262" class="mono" fill="#475569" font-size="13" letter-spacing="2">LLMs · AI AGENTS · RAG · NEXT.JS · TYPESCRIPT</text>
+    </g>
+    <!-- right kanji -->
+    <g class="fade d5">
+      <text x="985" y="182" text-anchor="middle" class="jp" fill="#e2e8f0" font-size="52" letter-spacing="10" filter="url(#glow)">未来を創る</text>
+      <text x="985" y="214" text-anchor="middle" class="mono" fill="#67e8f9" fill-opacity=".7" font-size="11" letter-spacing="5">BUILDING THE FUTURE</text>
+      <text x="985" y="240" text-anchor="middle" class="jp" fill="#64748b" font-size="13" letter-spacing="4">知能 × 創造 × コード</text>
+    </g>
+    <!-- waves -->
+    <g class="wave">
+      <path d="M-20 300 C 200 270, 420 330, 640 300 S 1080 280, 1280 305 L1280 360 L-20 360Z" fill="#0e7490" fill-opacity=".12"/>
+      <path d="M-20 318 C 240 296, 480 342, 720 318 S 1100 304, 1280 322" fill="none" stroke="#22d3ee" stroke-opacity=".25" stroke-width="1"/>
+    </g>
+    <rect x=".5" y=".5" width="1199" height="339" rx="18" fill="none" stroke="#1e293b"/>
+  </g>
+</svg>
