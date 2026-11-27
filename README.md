@@ -2,7 +2,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:0e7490,100:22d3ee&height=220&section=header&text=Janver%20Manlapaz&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Software%20Engineer%20%7C%20AI%20Engineer&descAlignY=58&descSize=20" width="100%"/>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=640&lines=Building+AI-powered+web+%26+mobile+apps+%F0%9F%A4%96;100%2B+projects+shipped+for+clients+worldwide+%F0%9F%9A%80;5k%2B+users+across+my+own+products+%F0%9F%93%88;LLMs+%E2%80%A2+AI+Agents+%E2%80%A2+RAG+%E2%80%A2+Automation+%E2%9A%A1" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=22D3EE&center=true&vCenter=true&width=640&lines=Building+AI-powered+web+%26+mobile+apps;100%2B+projects+shipped+for+clients+worldwide;5k%2B+users+across+my+own+products;LLMs+%E2%80%A2+AI+Agents+%E2%80%A2+RAG+%E2%80%A2+Automation" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
